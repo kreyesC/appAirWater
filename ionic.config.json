@@ -1,0 +1,7 @@
+{
+  "name": "airWater",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
