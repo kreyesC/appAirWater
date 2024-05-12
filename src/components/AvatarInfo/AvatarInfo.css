@@ -1,0 +1,14 @@
+.containerAvatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+
+    & h1 {
+        margin: 0;
+    }
+    & p {
+        margin: 0;
+        margin-bottom: 24px;
+    }
+}

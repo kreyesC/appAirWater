@@ -1,0 +1,43 @@
+.containerText {
+    margin-left: 16px;
+    margin-top: 40px;
+    & h1 {
+        color: black;
+    }
+}
+
+.check-terms {
+    margin-left: 16px;
+    margin-top: 24px;
+    word-break: break-all;
+}
+
+.containerLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerCheck {
+    display: flex;
+}
+
+& .ion-text-capitalize {
+    color: red;
+}
+
+.buttonSignIn {
+    padding-inline: 20px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+    & .img-logo {
+        width: 200px;
+        height: auto;
+    }
+    
+}

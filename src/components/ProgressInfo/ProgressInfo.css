@@ -1,0 +1,17 @@
+.reports {
+    margin-top: 20px;
+    text-align: center;
+}
+.containerInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 130px;
+
+        & p {
+            font-size: 14px;
+            text-align: center;
+        }
+    
+}

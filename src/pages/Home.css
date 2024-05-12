@@ -1,0 +1,30 @@
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+    & .img-logo {
+        width: 200px;
+        height: auto;
+    }
+    
+}
+
+.buttonSignIn {
+    margin-top: 24px;
+}
+.containerText {
+    margin-left: 16px;
+}
+.containerButtons {
+    display: flex;
+    justify-content: space-between;
+
+& .ion-text-capitalize {
+    color: red;
+}
+& .ion-text-lowercase{
+    color: darkgray;
+}
+}
