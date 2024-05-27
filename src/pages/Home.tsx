@@ -1,9 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { IonContent, IonButton, IonPage, IonItem, IonInput , IonImg, IonText} from '@ionic/react';
 import './Home.css';
+import {useStorage} from '../hooks/useStorage'
 
 
 const Home: React.FC = () => {  
+  const { user } = useStorage();
+
   return (
     <IonPage>
       <IonContent fullscreen>

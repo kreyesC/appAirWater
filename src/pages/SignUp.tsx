@@ -1,8 +1,12 @@
 import { IonContent, IonCheckbox, IonPage, IonItem, IonInput , IonText, IonButton,IonImg} from '@ionic/react';
 import './SignUp.css';
+import {useStorage} from '../hooks/useStorage'
+import { useState } from 'react';
+
 
 
 const SignUp: React.FC = () => {
+
   return (
     <IonPage>
       <IonContent fullscreen>
@@ -24,7 +28,7 @@ const SignUp: React.FC = () => {
       <div className='containerCheck'>
       <IonCheckbox className="check-terms" labelPlacement="end">I agree to the <a href="#">Terms and conditions</a></IonCheckbox>
       </div>
-      <IonButton className="buttonSignIn" fill="outline" expand="block" routerLink="/adminPanel">Sign Up</IonButton>
+      <IonButton className="buttonSignIn" fill="outline" expand="block" routerLink="/adminPanel" >Sign Up</IonButton>
       <div className='containerLink'>
         <p>Have an account?</p>
         <IonButton className="ion-text-capitalize" fill="clear" routerLink="/home">Sign In</IonButton>

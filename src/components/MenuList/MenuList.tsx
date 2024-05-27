@@ -7,7 +7,7 @@ function MenuList() {
     <>
     <IonList>
       <IonItem>
-      <IonButton fill="clear">Gestion de Usuarios</IonButton>
+      <IonButton fill="clear" routerLink="/gestionUsers">Gestion de Usuarios</IonButton>
       </IonItem>
       <IonItem>
       <IonButton fill="clear" routerLink="/adminPanel">Monitoreo y Analisis</IonButton>
